@@ -1,0 +1,41 @@
+{
+  "name": "@my-ginkgo/gpmf-extractor",
+  "version": "0.1.0",
+  "description": "GoPro Metadata Format extractor from GoPro video files.",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/my-ginkgo/gpmf-extractor.git"
+  },
+  "keywords": [
+    "GoPro",
+    "Ginkgo",
+    "GPMF",
+    "mp4",
+    "mov",
+    "exctract",
+    "telemetry",
+    "metadata",
+    "LRV"
+  ],
+  "homepage": "https://myginkgo.tech/",
+  "funding": [
+    {
+      "type": "liberapay",
+      "url": "https://liberapay.com/MyGinkgo/donate"
+    }
+  ],
+  "author": {
+    "name": "myGinkgo",
+    "email": "hello@myginkgo.tech",
+    "url": "https://myginkgo.tech/"
+  },  "license": "MIT",
+  "dependencies": {
+    "inline-worker": "^1.1.0",
+    "mp4box": "^0.5.2"
+  }
+}
