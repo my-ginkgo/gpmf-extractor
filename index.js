@@ -44,10 +44,10 @@ module.exports = function (
 
         //When the data is ready, look for the right track
         mp4boxFile.onReady = function (videoData) {
-            console.warn('STE');
             var foundVideo = false;
             for (var i = 0; i < videoData.tracks.length; i++) {
                 //Find the metadata track. Collect Id and number of samples
+                console.warn(videoData.tracks[i].id, videoData.tracks[i].codec);
                 if (videoData.tracks[i].codec == 'gpmd') {
                     trackId = videoData.tracks[i].id;
                     nb_samples = videoData.tracks[i].nb_samples;

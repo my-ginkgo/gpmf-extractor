@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": false,
   "scripts": {
-    "test": "jest"
+    "start": "node samples/example.js"
   },
   "repository": {
     "type": "git",
